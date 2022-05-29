@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.confraternidad.app.confra.fragments.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+    </fragment>
+    <fragment
+        android:id="@+id/nav_predicas"
+        android:name="com.confraternidad.app.confra.fragments.PredicasFragment"
+        android:label="@string/menu_predicas"
+        tools:layout="@layout/fragment_predicas" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_ministerios"
+        android:name="com.confraternidad.app.confra.fragments.MinisteriosFragment"
+        android:label="@string/menu_ministerios"
+        tools:layout="@layout/fragment_ministerios" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_discipulados"
+        android:name="com.confraternidad.app.confra.fragments.DiscipuladosFragment"
+        android:label="@string/menu_discipulados"
+        tools:layout="@layout/fragment_discipulados" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_estudio_biblico"
+        android:name="com.confraternidad.app.confra.fragments.EstudioBiblicoFragment"
+        android:label="@string/menu_estudio_biblico"
+        tools:layout="@layout/fragment_estudio_biblico" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_peticiones"
+        android:name="com.confraternidad.app.confra.fragments.PeticionesFragment"
+        android:label="@string/menu_peticiones"
+        tools:layout="@layout/fragment_peticiones" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_contribuciones"
+        android:name="com.confraternidad.app.confra.fragments.ContribucionesFragment"
+        android:label="@string/menu_contribuciones"
+        tools:layout="@layout/fragment_contribuciones" >
+    </fragment>
+
+
+
+
+    <fragment
+        android:id="@+id/nav_contactanos"
+        android:name="com.confraternidad.app.confra.fragments.ContactanosFragment"
+        android:label="@string/menu_contactanos"
+        tools:layout="@layout/fragment_contactanos" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_perfil"
+        android:name="com.confraternidad.app.confra.fragments.PerfilFragment"
+        android:label="@string/menu_perfil"
+        tools:layout="@layout/fragment_perfil" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.confraternidad.app.confra.fragments.LoginFragment"
+        android:label="@string/action_login"
+        tools:layout="@layout/fragment_login" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_cerrar_sesion"
+        android:name="com.confraternidad.app.confra.fragments.CerrarSesionFragment"
+        android:label="@string/menu_cerrar_sesion"
+        tools:layout="@layout/fragment_cerrar_sesion" >
+    </fragment>
+
+</navigation>

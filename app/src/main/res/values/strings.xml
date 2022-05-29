@@ -1,0 +1,151 @@
+<resources>
+
+    <!--GENERAL APP-->
+    <string name="app_name">Confra con Proposito</string>
+    <string name="powered_by">Powered by Tu Mundo Maker</string>
+    <string name="nombre_iglesia">Confraternidad con Propósito</string>
+    <string name="img_content_description">img</string>
+
+
+    <!--MENU-->
+    <string name="menu_home">Inicio</string>
+    <string name="menu_perfil">Mi Perfil</string>
+    <string name="menu_predicas">Celebraciones</string>
+    <string name="menu_ministerios">Ministerios</string>
+    <string name="menu_discipulados">Discipulados</string>
+    <string name="menu_peticiones">Peticiones</string>
+    <string name="menu_contribuciones">Contribuciones</string>
+    <string name="menu_estudio_biblico">Estudio Bíblico</string>
+    <string name="menu_contactanos">Contáctanos</string>
+    <string name="menu_cerrar_sesion">Cerrar Sesión</string>
+
+    <string name="menu_administrador">Funciones de Administrador</string>
+
+
+    <!--INICIO-->
+
+
+    <!--LOGIN-->
+    <string name="txt_ingresa_datos">Ingresa tus datos</string>
+    <string name="txt_login_correo">Correo electrónico</string>
+    <string name="txt_login_password">Contraseña</string>
+    <string name="txt_btn_login">Iniciar Sesión</string>
+    <string name="txt_btn_signup">Registrarse</string>
+    <string name="txt_btn_reset_pass">Olvidé mi contrseña</string>
+    <string name="txt_TyC">Aceptar Términos y Condiciones</string>
+
+    <!--POPUP LOGIN NEW USER-->
+    <string name="txt_datos_contacto">Información de contacto</string>
+    <string name="txt_new_user_nombre">Nombre</string>
+    <string name="txt_new_user_apellido">Apellido</string>
+    <string name="txt_new_user_fecha_nac">Fecha de Nacimiento</string>
+    <string name="txt_new_user_genero">Género</string>
+    <string name="txt_new_user_telefono">Teléfono móvil</string>
+
+    <string name="txt_datos_ingreso">Información para el ingreso</string>
+    <string name="txt_new_user_correo">Correo</string>
+    <string name="txt_new_user_clave">Contraseña</string>
+    <string name="txt_new_user_clave_confirm">Confirmar Contraseña</string>
+
+    <string name="txt_login_btn_continuar">Continuar</string>
+    <string name="txt_login_btn_cancelar">Cancelar</string>
+
+    <!--PERFIL-->
+    <string name="txt_card_acerca_de_mi">Acerca de mi</string>
+    <string name="txt_informacion_personal">Información personal</string>
+    <string name="txt_informacion_comunidad">Información de comunidad</string>
+    <string name="txt_informacion_login">Información de inicio de sesión</string>
+
+    <string name="txt_nombre">Nombre</string>
+    <string name="txt_apellido">Apellido</string>
+    <string name="txt_cedula">Número de identificación</string>
+    <string name="txt_direccion">Dirección</string>
+    <string name="txt_telefono">Teléfono</string>
+    <string name="txt_fecha_nac">Fecha de Nac</string>
+    <string name="txt_genero">Género</string>
+    <string name="txt_profesion">Profesión</string>
+    <string name="txt_correo">Correo</string>
+    <string name="txt_clave">Contraseña</string>
+
+    <string name="txt_iglesia">Iglesia</string>
+    <string name="txt_discipulados">Discipulados</string>
+    <string name="txt_ministerios">Ministerios</string>
+    <string name="txt_grupos">Grupos</string>
+
+    <!--PREDICAS-->
+    <string name="txt_predica_titulo">Título</string>
+    <string name="txt_predica_descripcion">Descripción</string>
+    <string name="txt_predica_fecha">Fecha</string>
+    <string name="txt_predica_link">Copia aquí el enlace de YouTube</string>
+
+    <string name="txt_predicas_btn_aceptar">Aceptar</string>
+    <string name="txt_predicas_btn_agregar">Agregar</string>
+    <string name="txt_predicas_btn_cancelar">Cancelar</string>
+
+
+    <!--PETICIONES-->
+    <string name="txt_peticiones_versiculo">Que Dios te dé todo lo que deseas y haga realidad todos tus planes. Cuando salgas victorioso, cantaremos llenos de alegría. Festejaremos con banderas en alto para celebrar lo que Dios hizo.¡Que el Señor cumpla todas tus peticiones!\n\nSalmo 20: 4–5 (PDT)</string>
+    <string name="txt_enviar_peticion">Enviar petición</string>
+    <string name="txt_peticion_titulo">Tipo de petición</string>
+    <string name="txt_peticion">Escriba aquí su petición</string>
+
+
+    <!--CONTRIBUCIONES-->
+    <string name="txt_sol_bancolombia">Soluciones Bancolombia</string>
+    <string name="txt_sol_nacionales">Soluciones Nacionales</string>
+    <string name="txt_sol_internacionales">Soluciones Internacionales</string>
+
+    <string name="txt_corresponsal_titulo">Corresponsal Bancolombia</string>
+    <string name="txt_corresponsal_cuenta">Cuenta Ahorro #253–000437–31</string>
+
+    <string name="txt_transferencias_titulo">Transferencias Bancolombia</string>
+    <string name="txt_transferencias_nombre">Confraternidad con Propósito</string>
+    <string name="txt_transferencias_nit">NIT: 901.146.646–3</string>
+    <string name="txt_transferencias_cuenta">Cuenta de ahorros\n#253–000437–31</string>
+
+    <string name="txt_qr_titulo">Bancolombia territorio QR</string>
+    <string name="txt_qr_info">Escanea este código QR desde tu App Bancolombia </string>
+
+    <string name="txt_wompi_titulo">Datáfono Virtual</string>
+    <string name="txt_wompi_info">Utiliza tus tarjetas de débito o crédito para hacer tus pagos en línea de forma rápida y segura</string>
+
+    <string name="txt_paypal_titulo">Pagos con PayPal</string>
+    <string name="txt_paypal_info">Si estás fuera de Colombia ponemos a tu disposición el botón de pagos PayPal para que realices tus donaciones desde cualquier parte del mundo de una manera fácil y segura</string>
+
+    <!--CONTACTANOS-->
+    <string name="txt_rrss">Siguenos en Nuestras Redes</string>
+    <string name="txt_hablar_con_pastor">Hablar con el Pastor</string>
+    <string name="txt_hablar_con_ministerio">Hablar con el líder de un ministerio</string>
+    <string name="txt_hablar_con_especialista">Hablar con un especialista</string>
+
+
+    <!--OTROS-->
+
+    <string name="iglesia_sucursal">Iglesia Sucursal</string>
+    <string name="txt_delete">Eliminar</string>
+    <string name="txt_usericon">User</string>
+    <string name="txt_rights">Todos los derechos reservados\nTu Mundo Maker 2020</string>
+    <string name="txt_errorTyC">.</string>
+    <string name="recordar_mis_datos">Recordar mis datos</string>
+    <string name="olvide_mi_contrasena">Olvide mi contraseña</string>
+
+    <string name="txt_continuar">Continuar</string>
+
+    <string name="txt_finalizar">Finalizar</string>
+    <string name="txt_password_confirm">Confirmar contraseña</string>
+
+
+    <string name="notification_channel_group_general">notification_channel_group_general</string>
+
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Iglesia Cristiana</string>
+    <string name="nav_header_subtitle">Confraternidad con Propósito</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_login">Iniciar Sesion</string>
+    <string name="action_signup">Registrarse</string>
+    <string name="action_logout">Cerrar Sesion</string>
+
+</resources>

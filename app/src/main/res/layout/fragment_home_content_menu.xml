@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true">
+
+        <TableRow
+            android:gravity="center_horizontal">
+
+            <!--CardView Funciones de Administrador-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView_administrador"
+                app:cardBackgroundColor="#BFFFFFFF"
+                app:cardCornerRadius="20dp"
+                style="@style/home_CardView" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        style="@style/home_CardView_img"
+                        android:src="@drawable/ic_developer" />
+
+                    <TextView
+                        style="@style/home_CardView_txt"
+                        android:text="@string/menu_administrador" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+
+        <TableRow
+            android:gravity="center_horizontal">
+
+            <!--CardView Reservar asiento-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView_reservaciones"
+                app:cardBackgroundColor="#BFFFFFFF"
+                app:cardCornerRadius="20dp"
+                style="@style/home_CardView" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        style="@style/home_CardView_img"
+                        android:src="@drawable/ic_group" />
+
+                    <TextView
+                        style="@style/home_CardView_txt"
+                        android:text="Reservaciones" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+
+        <TableRow>
+            <!--CardView Servicios-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView_predicas"
+                app:cardBackgroundColor="#BFFFFFFF"
+                app:cardCornerRadius="20dp"
+                style="@style/home_CardView">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        style="@style/home_CardView_img"
+                        android:src="@drawable/ic_predicas" />
+
+                    <TextView
+                        style="@style/home_CardView_txt"
+                        android:text="@string/menu_predicas" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!--CardView Peticiones-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView_peticiones"
+                app:cardBackgroundColor="#BFFFFFFF"
+                app:cardCornerRadius="20dp"
+                style="@style/home_CardView">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        style="@style/home_CardView_img"
+                        android:src="@drawable/ic_peticiones" />
+
+                    <TextView
+                        style="@style/home_CardView_txt"
+                        android:text="@string/menu_peticiones" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+
+        <TableRow
+            android:visibility="gone">
+
+            <!--CardView Ministerios-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView_ministerios"
+                app:cardBackgroundColor="#BFFFFFFF"
+                app:cardCornerRadius="20dp"
+                style="@style/home_CardView" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        style="@style/home_CardView_img"
+                        android:src="@drawable/ic_ministerios" />
+
+                    <TextView
+                        style="@style/home_CardView_txt"
+                        android:text="@string/menu_ministerios" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!--CardView Discipulado-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView_discipulados"
+                app:cardBackgroundColor="#BFFFFFFF"
+                app:cardCornerRadius="20dp"
+                style="@style/home_CardView" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        style="@style/home_CardView_img"
+                        android:src="@drawable/ic_discipulados" />
+
+                    <TextView
+                        style="@style/home_CardView_txt"
+                        android:text="@string/menu_discipulados" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+
+        <TableRow>
+            <!--CardView Contribuciones-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView_contribuciones"
+                app:cardBackgroundColor="#BFFFFFFF"
+                app:cardCornerRadius="20dp"
+                style="@style/home_CardView" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        style="@style/home_CardView_img"
+                        android:src="@drawable/ic_contribuciones" />
+
+                    <TextView
+                        style="@style/home_CardView_txt"
+                        android:text="@string/menu_contribuciones" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!--CardView Contactanos-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView_contactanos"
+                app:cardBackgroundColor="#BFFFFFFF"
+                app:cardCornerRadius="20dp"
+                style="@style/home_CardView" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        style="@style/home_CardView_img"
+                        android:src="@drawable/ic_contactanos" />
+
+                    <TextView
+                        style="@style/home_CardView_txt"
+                        android:text="@string/menu_contactanos" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+
+        <TableRow
+            android:gravity="center_horizontal">
+
+            <!--CardView Estudio Biblico-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView_estudioBiblico"
+                app:cardBackgroundColor="#BFFFFFFF"
+                app:cardCornerRadius="20dp"
+                style="@style/home_CardView" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        style="@style/home_CardView_img"
+                        android:src="@drawable/ic_estudio_biblico" />
+
+                    <TextView
+                        style="@style/home_CardView_txt"
+                        android:text="@string/menu_estudio_biblico" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

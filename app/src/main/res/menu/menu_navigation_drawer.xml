@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/menu_home" />
+    <item
+        android:id="@+id/nav_predicas"
+        android:icon="@drawable/ic_predicas"
+        android:title="@string/menu_predicas" />
+
+    <!-- Pendiente por desarrollar -->
+    <item
+        android:visible="false"
+        android:id="@+id/nav_ministerios"
+        android:icon="@drawable/ic_ministerios"
+        android:title="@string/menu_ministerios" />
+
+    <!-- Pendiente por desarrollar -->
+    <item
+        android:visible="false"
+        android:id="@+id/nav_discipulados"
+        android:icon="@drawable/ic_discipulados"
+        android:title="@string/menu_discipulados" />
+    <item
+        android:id="@+id/nav_peticiones"
+        android:icon="@drawable/ic_peticiones"
+        android:title="@string/menu_peticiones" />
+    <item
+        android:id="@+id/nav_contribuciones"
+        android:icon="@drawable/ic_contribuciones"
+        android:title="@string/menu_contribuciones" />
+
+    <!-- Pendiente por desarrollar -->
+    <item
+        android:visible="false"
+        android:id="@+id/nav_estudio_biblico"
+        android:icon="@drawable/ic_estudio_biblico"
+        android:title="@string/menu_estudio_biblico" />
+    <item
+        android:id="@+id/nav_contactanos"
+        android:icon="@drawable/ic_contactanos"
+        android:title="@string/menu_contactanos" />
+
+  </group>
+
+
+  <group android:id="@+id/menu_user" android:checkableBehavior="none">
+
+    <item
+        android:id="@+id/nav_login"
+        android:icon="@drawable/ic_user"
+        android:title="@string/action_login" />
+    <item
+        android:id="@+id/nav_perfil"
+        android:icon="@drawable/ic_user"
+        android:title="@string/menu_perfil" />
+    <item
+        android:id="@+id/nav_cerrar_sesion"
+        android:icon="@drawable/ic_exit"
+        android:title="@string/menu_cerrar_sesion" />
+  </group>
+
+</menu>

@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TableLayout
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_centerHorizontal="true">
+
+        <TableRow>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_11"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="01"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_12"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="02"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_13"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="03"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                style="@style/card_silla"
+                android:visibility="invisible">
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_14"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="04"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_15"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="05"/>
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+        <TableRow>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_21"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="06"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_22"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="07"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_23"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="08"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                style="@style/card_silla"
+                android:visibility="invisible">
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_24"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="09"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_25"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="10"/>
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+        <TableRow>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_31"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="11"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_32"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="12"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_33"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="13"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                style="@style/card_silla"
+                android:visibility="invisible">
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_34"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="14"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_35"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="15"/>
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+        <TableRow>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_41"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="16"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_42"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="17"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_43"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="18"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                style="@style/card_silla"
+                android:visibility="invisible">
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_44"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="19"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_45"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="20"/>
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+        <TableRow>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_51"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="21"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_52"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="22"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_53"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="23"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                style="@style/card_silla"
+                android:visibility="invisible">
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_54"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="24"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_55"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="25"/>
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+        <TableRow>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_61"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="26"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_62"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="27"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_63"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="28"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                style="@style/card_silla"
+                android:visibility="invisible">
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_64"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="29"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_65"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="30"/>
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+        <TableRow>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_71"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="31"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_72"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="32"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_73"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="33"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                style="@style/card_silla"
+                android:visibility="invisible">
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_74"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="34"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_75"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="35"/>
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+        <TableRow>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_81"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="36"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_82"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="37"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_83"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="38"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                style="@style/card_silla"
+                android:visibility="invisible">
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_84"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="39"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/silla_85"
+                style="@style/card_silla">
+                <TextView android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/WideTextSize"
+                    android:text="40"/>
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</RelativeLayout>

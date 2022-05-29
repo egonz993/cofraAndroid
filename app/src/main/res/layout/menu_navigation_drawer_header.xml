@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@color/colorAccent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/imgUserMenu"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:layout_marginHorizontal="16dp"
+        android:contentDescription="@string/img_content_description" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btn_dropDownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="16dp"
+        app:cardBackgroundColor="#00000000"
+        app:cardElevation="0dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="false"
+        android:foreground="?android:selectableItemBackground"  >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="16dp"
+                android:orientation="vertical"
+                android:layout_toLeftOf="@+id/x1"
+                android:layout_toStartOf="@+id/x1"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:id="@+id/textUserMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:paddingTop="@dimen/nav_header_vertical_spacing"
+                    android:text="@string/nav_header_title"
+                    android:textSize="@dimen/TextNormalSize"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+                <TextView
+                    android:id="@+id/textEmailMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:paddingRight="8dp"
+                    android:drawableRight="@drawable/ic_menu_drop_down_white"
+                    android:textSize="@dimen/TextNormalSize"
+                    android:text="@string/nav_header_subtitle" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/x1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_drop_down"
+                android:padding="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:background="@color/colorAccent"
+                android:contentDescription="@string/img_content_description"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="#FFFFFF">
+
+  <ImageView
+      android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:src="@drawable/logotipo_confra"
+      android:contentDescription="@string/img_content_description" />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="12sp"
+      android:layout_marginBottom="50dp"
+      android:textStyle="bold"
+      android:textColor="#A0A0A0"
+      android:gravity="center"
+      android:layout_alignParentBottom="true"
+      android:text="@string/powered_by" />
+
+</RelativeLayout>

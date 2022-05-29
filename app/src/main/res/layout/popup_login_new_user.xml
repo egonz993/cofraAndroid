@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="8dp"
+        tools:ignore="UselessParent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+<!--        Iglesia-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_registro_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="16dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/user_avatar"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginVertical="24dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/logo_confra_round"
+                        android:contentDescription="@string/img_content_description" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/user_avatar">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/txt_iglesia"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="24dp"
+                            android:layout_marginBottom="16dp"
+                            android:layout_marginHorizontal="40dp"
+                            android:hint="@string/iglesia_sucursal"
+                            android:focusable="false"
+                            android:text="@string/nombre_iglesia"
+                            android:inputType="text|textCapSentences"
+                            android:textSize="@dimen/TitleTextSize"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+<!--            Contacto-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_registro_informacionPersonal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card_registro_header"
+                app:cardCornerRadius="16dp"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="@string/txt_datos_contacto"
+                        android:textSize="@dimen/TitleTextSize"
+                        android:textStyle="bold"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/txt_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:hint="@string/txt_new_user_nombre"
+                            android:inputType="textPersonName|textCapSentences"
+                            android:drawableLeft="@drawable/ic_user"
+                            android:textSize="@dimen/SubtitleTextSize"
+                            android:drawableStart="@drawable/ic_user" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/txt_lastname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:hint="@string/txt_new_user_apellido"
+                            android:inputType="textPersonName|textCapSentences"
+                            android:drawableLeft="@drawable/ic_user"
+                            android:textSize="@dimen/SubtitleTextSize"
+                            android:drawableStart="@drawable/ic_user" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/txt_birthdate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:hint="@string/txt_new_user_fecha_nac"
+                            android:inputType="date"
+                            android:drawableLeft="@drawable/ic_calendar"
+                            android:textSize="@dimen/SubtitleTextSize"
+                            android:focusable="false"
+                            android:drawableStart="@drawable/ic_calendar" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/txt_genero"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:hint="@string/txt_new_user_genero"
+                            android:inputType="textPersonName|textCapSentences"
+                            android:drawableLeft="@drawable/ic_gender"
+                            android:textSize="@dimen/SubtitleTextSize"
+                            android:focusable="false"
+                            android:drawableStart="@drawable/ic_gender" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/txt_telefono"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:hint="@string/txt_new_user_telefono"
+                            android:inputType="numberDecimal"
+                            android:drawableLeft="@drawable/ic_phone"
+                            android:textSize="@dimen/SubtitleTextSize"
+                            android:drawableStart="@drawable/ic_phone" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+<!--            Ingreso-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_registro_informacionLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card_registro_informacionPersonal"
+                app:cardCornerRadius="16dp"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="@string/txt_datos_ingreso"
+                        android:textSize="@dimen/TitleTextSize"
+                        android:textStyle="bold"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/txt_useremail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:hint="@string/txt_new_user_correo"
+                            android:inputType="textWebEmailAddress"
+                            android:drawableLeft="@drawable/ic_email"
+                            android:textSize="@dimen/SubtitleTextSize"
+                            android:drawableStart="@drawable/ic_email" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/txt_password"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:hint="@string/txt_new_user_clave"
+                            android:inputType="textPassword"
+                            android:drawableLeft="@drawable/ic_password"
+                            android:textSize="@dimen/SubtitleTextSize"
+                            android:drawableStart="@drawable/ic_password" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/txt_password_confirm"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:hint="@string/txt_new_user_clave_confirm"
+                            android:inputType="textPassword"
+                            android:drawableLeft="@drawable/ic_password"
+                            android:textSize="@dimen/SubtitleTextSize"
+                            android:drawableStart="@drawable/ic_password" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="16dp"
+                        android:gravity="end">
+
+                        <Button
+                            android:id="@+id/btn_cancelNewUser"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#00000000"
+                            android:gravity="bottom|end"
+                            android:layout_marginHorizontal="8dp"
+                            android:textAllCaps="false"
+                            android:text="@string/txt_login_btn_cancelar"
+                            android:textSize="@dimen/TitleTextSize"
+                            tools:ignore="ButtonStyle" />
+
+                        <Button
+                            android:id="@+id/btn_addNewUser"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#00000000"
+                            android:gravity="bottom|end"
+                            android:layout_marginHorizontal="8dp"
+                            android:textAllCaps="false"
+                            android:text="@string/txt_login_btn_continuar"
+                            android:textSize="@dimen/TitleTextSize"
+                            tools:ignore="ButtonStyle" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
